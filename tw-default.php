@@ -161,6 +161,26 @@ if ( ! class_exists( 'GFForms' ) ) {
     </div>
 
 </div>
+<div class="row">
+    <div class="col col-1-3">
+        <div class="inner" height="40mm">
+            <div></div>
+        </div>
+    </div>
+
+    <div class="col col-1-3">
+    	<div class="inner" height="40mm">
+            <div></div>
+        </div>        
+    </div>
+
+    <div class="col col-1-3">
+        <div class="inner-section2" height="40mm">
+           <div><h3 class="section2_header">Subtotal</h3></div><div class="bottompadding_2"><h4>$55.12</h4></div><div><h3 class="section2_header">Grand Total</h3></div><div><h3>$55.12</h3></div>
+        </div>
+    </div>
+
+</div>
 <div>test</div>
 
 <pagebreak />
