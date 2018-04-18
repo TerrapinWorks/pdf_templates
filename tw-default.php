@@ -71,7 +71,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     	margin-top: 0px;
         margin-bottom: 0px;
         padding-bottom: 10px;
-        color: #ccc;
+        color: #ddd;
     }
     .col-1-3 div.bottompadding {
     	padding-bottom: 30px;
