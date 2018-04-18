@@ -53,6 +53,7 @@ if ( ! class_exists( 'GFForms' ) ) {
         padding-right: 1%;
     }
     .col-1-3 {
+    	font-family: "Proxima Nova", proximanova, sans-serif;
         width: 33%;
         padding-right: 0.3%;
     }
@@ -108,7 +109,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <h1>Invoice Number</h1><br />TWINV2018-0001
+            Invoice Total<br /><h1>$55.12</h1>
         </div>
     </div>
 </div>
