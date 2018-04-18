@@ -56,7 +56,7 @@ if ( ! class_exists( 'GFForms' ) ) {
         padding-right: 0.3%;
     }
     .inner {
-        padding: 10px;
+        padding: none;
         border: 1px solid black;
     }
 </style>
