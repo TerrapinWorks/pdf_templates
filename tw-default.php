@@ -67,7 +67,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     	padding-bottom: 15px;
     }
     .col-1-3 div.bottompadding {
-    	padding-bottom: 25px;
+    	padding-bottom: 26px;
     }
     .col-1-3 div.bottompadding_2 {
     	padding-bottom: 5px;
