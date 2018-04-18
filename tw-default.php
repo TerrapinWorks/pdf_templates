@@ -59,7 +59,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     .col-1-3 h3 {
         margin-top: 0;
         margin-bottom: 0;
-        padding-bottom: 5px;
+        padding-bottom: 0px;
         color: #ccc;
     }
     .inner {
