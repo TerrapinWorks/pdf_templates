@@ -67,7 +67,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 </htmlpagefooter>
 
 <!-- Write PDF body -->
-<table class="invoice_section1">
+<table style="vertical-align: top;">
   <tr>
     <td width="25%"><h4 style="color: #ccc;">Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip</td>
     <td width="25%"><p><h4>Account Number</h4><br />12-34567</p><p><h4>Account Number</h4><br />12-34567</p></td>
