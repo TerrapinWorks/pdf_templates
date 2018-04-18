@@ -1,14 +1,14 @@
 <?php
 /**
- * Template Name: Terrapin Works Default Invoice Template
+ * Template Name: Terrapin Works KFS Invoice Template
  * Version: 0.1
- * Description: The default Terrapin Works invoice template. Not configured for any payment methods.
+ * Description: The Terrapin Works invoice template. Configured for KFS Acccount.
  * Author: Nicholas Bentley, Merus IT Services
  * Author URI: https://merus.it
  * Group: Terrapin Works Templates
  * License: GPLv2
  * Required PDF Version: 4.4
- * Tags: terrapinworks, invoice
+ * Tags: terrapinworks, invoice, kfs
  */
 /* Prevent direct access to the template (always good to include this) */
 if ( ! class_exists( 'GFForms' ) ) {
