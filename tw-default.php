@@ -80,10 +80,10 @@ if ( ! class_exists( 'GFForms' ) ) {
         color: #b0b0b0;
     }
     .col-1-3 div.bottompadding {
-    	padding-bottom: 40px;
+    	padding-bottom: 45px;
     }
     .col-1-3 div.bottompadding_2 {
-    	padding-bottom: 20px;
+    	padding-bottom: 25px;
     }
     .col-1-3 div.bottompadding_3 {
     	padding-bottom: 10px;
