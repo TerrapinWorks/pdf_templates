@@ -115,7 +115,6 @@ if ( ! class_exists( 'GFForms' ) ) {
     }
     h4.addtlinfo {
         color: #cf202e;
-        padding-bottom: 10px
     }
 </style>
 
