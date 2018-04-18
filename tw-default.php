@@ -64,6 +64,7 @@ if ( ! class_exists( 'GFForms' ) ) {
         color: #ccc;
     }
     .col-1-3 h1 {
+    	font-size: 1.8em;
         margin-top: 0px;
         margin-bottom: 0px;
         padding-bottom: 0px;
