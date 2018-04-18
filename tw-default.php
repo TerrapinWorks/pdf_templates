@@ -24,10 +24,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     }
     table.header {
     	vertical-align: bottom; 
-    	@font-face {
-			font-family: 'Proxima Nova', Helvetica, sans-serif;
-			src:url('proximanova-regular-webfont.woff') format('woff');
-		}
+    	font-family: "Proxima Nova", proximanova, sans-serif;
     	color: #000088;
     	width: 100%;
     }
