@@ -33,6 +33,8 @@ if ( ! class_exists( 'GFForms' ) ) {
     table.header th,td {
     	padding-top: 50px;
     	padding-bottom: 50px;
+    	padding-left: 10px;
+    	padding-right: 10px;
     }
     .footer {
     	text-align: center;
