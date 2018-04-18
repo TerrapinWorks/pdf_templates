@@ -176,7 +176,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner-section2" height="40mm">
-           <div><h3 class="section2_header">Subtotal </h3><h4 style="color: #000000;">$55.12</h4></div><div class="bottompadding_2"></div><div><h3 class="section2_header">Grand Total </h3><h3 style="color: #000000;">$55.12</h3></div>
+           <div><h3 class="section2_header">Subtotal <span style="color: #000000;">$55.12</span></h3></div><div class="bottompadding_2"></div><div><h3 class="section2_header">Grand Total <span style="color: #000000;">$55.12</span></h3></div>
         </div>
     </div>
 
