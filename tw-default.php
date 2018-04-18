@@ -18,6 +18,9 @@ if ( ! class_exists( 'GFForms' ) ) {
 
 <!-- Any PDF CSS styles can be placed in here -->
 <style>
+	body {
+		font-family: "Proxima Nova", proximanova, sans-serif;
+	}
     @page {
         header: html_twHeader;
         footer: html_twFooter;
