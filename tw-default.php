@@ -61,14 +61,17 @@ if ( ! class_exists( 'GFForms' ) ) {
         width: 33%;
         padding-right: 0.3%;
     }
-    .col-1-3 h3 {
+    .col-1-3 h3.section2_header {
         margin-top: 0px;
         margin-bottom: 0px;
         padding-bottom: 0px;
-        color: #ccc;
+        color: #cf202e;
     }
     .col-1-3 h3.section1_header {
-    	padding-bottom: 15px;
+    	margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        color: #ccc;
     }
     .col-1-3 div.bottompadding {
     	padding-bottom: 30px;
@@ -137,19 +140,19 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Description</h3></div><div>Print Job</div>
+            <div><h3 class="section2_header">Description</h3></div><div>Print Job</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Qty / Rate</h3></div><div>1</div>
+            <div><h3 class="section2_header">Qty / Rate</h3></div><div>1</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Amount</h3></div><div>$55.12</div>
+            <div><h3 class="section2_header">Amount</h3></div><div>$55.12</div>
         </div>
     </div>
 
