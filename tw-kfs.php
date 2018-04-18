@@ -157,7 +157,15 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section2_header">Description</h3></div><div>{Equipment or Service (Equipment or Service):70.3}</div>
+            <div><h3 class="section2_header">Description</h3></div>
+            <div>
+                [gravityforms action="conditional" merge_tag="{Product or Service?:71}" condition="is" value="Product"]
+                {Equipment or Service (Equipment or Service):70.3} Job
+                [/gravityforms]
+                [gravityforms action="conditional" merge_tag="{Product or Service?:71}" condition="is" value="Service"]
+                {Equipment or Service (Equipment or Service):70.3}
+                [/gravityforms]
+            </div>
         </div>
     </div>
 
@@ -169,7 +177,10 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner-section2" height="40mm">
-            <div><h3 class="section2_header">Amount</h3></div><div>{What is the subtotal (excluding tax, if applicable)?:3}</div>
+            <div><h3 class="section2_header">Amount</h3></div>
+            <div>
+                {What is the subtotal (excluding tax, if applicable)?:3}
+            </div>
         </div>
     </div>
 
