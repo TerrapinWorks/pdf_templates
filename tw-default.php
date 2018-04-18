@@ -23,7 +23,8 @@ if ( ! class_exists( 'GFForms' ) ) {
         footer: html_twFooter;
     }
     table.header {
-    	background-color: #cf202e; 
+    	padding-top: 50px;
+    	padding-bottom: 50px;
     	vertical-align: bottom; 
     	font-family: sans-serif; 
     	font-size: 12pt; 
@@ -40,7 +41,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 <htmlpageheader name="twHeader">
     <table class="header">
     	<tr>
-    		<td width="50%">Main Header</td>
+    		<td width="50%" style="background-color: #cf202e;">Main Header</td>
     		<td width="25%" style="text-align: right;">Address</td>
     		<td width="25%" style="text-align: right;"><img width="150px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/MediumHeader.png"></img></td>
     	</tr>
