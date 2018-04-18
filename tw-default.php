@@ -19,5 +19,13 @@ if ( ! class_exists( 'GFForms' ) ) {
 <!-- Any PDF CSS styles can be placed in the style tag below -->
 <style>
 </style>
-
-<h1>Sup boi</h1>
+<htmlpageheader name="MyCustomHeader">
+    <table style="border-bottom: 1px solid #000000; vertical-align: bottom; font-family: serif; font-size: 9pt; color: #000088;" width="100%">
+        <tbody>
+            <tr>
+                <td width="50%">Title</td>
+                <td style="text-align: right; font-weight: bold;" width="50%">Logo</td>
+            </tr>
+        </tbody>
+    </table>
+</htmlpageheader>
