@@ -110,7 +110,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <h3>Invoice Number</h3><br />TWINV2018-0001<br /><h3>Date Issued</h3><br />Current Date
+            <div><h3>Invoice Number</h3></div><div>TWINV2018-0001</div><h3>Date Issued</h3><br />Current Date
         </div>
     </div>
 
