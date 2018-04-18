@@ -160,7 +160,7 @@ if ( ! class_exists( 'GFForms' ) ) {
             <div><h3 class="section2_header">Description</h3></div>
             <div>
                 [gravityforms action="conditional" merge_tag="{Product or Service?:71}" condition="is" value="Product"]
-                {Equipment or Service (Equipment or Service):70.3} Job
+                <strong>Print Job</strong><br />Machine: {Equipment or Service (Equipment or Service):70.3}
                 [/gravityforms]
                 [gravityforms action="conditional" merge_tag="{Product or Service?:71}" condition="is" value="Service"]
                 {Equipment or Service (Equipment or Service):70.3}
