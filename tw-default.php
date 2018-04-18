@@ -109,7 +109,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            Invoice Total<br /><h1>$55.12</h1>
+           <h3>Invoice Total</h3><br /><h1>$55.12</h1>
         </div>
     </div>
 </div>
