@@ -37,8 +37,11 @@ if ( ! class_exists( 'GFForms' ) ) {
     	padding-left: 10px;
     	padding-right: 10px;
     }
-    table th,td h4 {
-    	color: #ccc;
+    table.invoice_section1 {
+    	vertical-align: top; 
+    	font-family: "Proxima Nova", proximanova, sans-serif;
+    	color: #000088;
+    	width: 100%;
     }
     .footer {
     	text-align: center;
@@ -64,9 +67,9 @@ if ( ! class_exists( 'GFForms' ) ) {
 </htmlpagefooter>
 
 <!-- Write PDF body -->
-    <table class="header">
+    <table class="invoice_section1">
     	<tr>
-    		<td width="25%"><h4>Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip</td>
+    		<td width="25%"><h4 style="color: #ccc;">Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip</td>
     		<td width="25%"><p><h4>Account Number</h4><br />12-34567</p><p><h4>Account Number</h4><br />12-34567</p></td>
     		<td width="50%" style="text-align: right;"><img width="200px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPC.png"></img></td>
     	</tr>
