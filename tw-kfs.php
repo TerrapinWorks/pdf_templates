@@ -149,7 +149,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-           <div><h3 class="section1_header">Invoice Total</h3></div><div class="bottompadding_2"><h1>$55.12</h1></div><div><h3 class="section1_header">Payment Status</h3></div><div>Paid Status</div>
+           <div><h3 class="section1_header">Invoice Total</h3></div><div class="bottompadding_2"><h1>$55.12</h1></div><div><h3 class="section1_header">Payment Status</h3></div><div>{Payment Status:44}</div>
         </div>
     </div>
 </div>
@@ -157,19 +157,19 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section2_header">Description</h3></div><div>Print Job</div>
+            <div><h3 class="section2_header">Description</h3></div><div>{Equipment or Service (Equipment or Service):70.3}</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner-section2" height="40mm">
-            <div><h3 class="section2_header">Qty / Rate</h3></div><div>1</div>
+            <div><h3 class="section2_header">Qty</h3></div><div>1</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner-section2" height="40mm">
-            <div><h3 class="section2_header">Amount</h3></div><div>$55.12</div>
+            <div><h3 class="section2_header">Amount</h3></div><div>{What is the subtotal (excluding tax, if applicable)?:3}</div>
         </div>
     </div>
 
@@ -189,7 +189,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner-section2" height="40mm">
-           <div><h3 class="section2_header">Subtotal <span style="color: #000000;">$55.12</span></h3></div><div><h3 class="section2_header">Tax <span style="color: #000000;">$0.00</span></h3></div><div class="bottompadding_2"></div><div><h2 class="section2_header">Grand Total <span style="color: #000000;">$55.12</span></h2></div>
+           <div><h3 class="section2_header">Subtotal <span style="color: #000000;">{What is the subtotal (excluding tax, if applicable)?:3}</span></h3></div><div><h3 class="section2_header">Tax <span style="color: #000000;">$0.00</span></h3></div><div class="bottompadding_2"></div><div><h2 class="section2_header">Grand Total <span style="color: #000000;">{Grand Total (KFS Account):14}</span></h2></div>
         </div>
     </div>
 
