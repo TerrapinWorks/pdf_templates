@@ -62,6 +62,12 @@ if ( ! class_exists( 'GFForms' ) ) {
         padding-bottom: 0px;
         color: #ccc;
     }
+    .col-1-3 h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0px;
+        color: #cf202e;
+    }
     .inner {
         padding: none;
         border: 1px solid black;
@@ -102,7 +108,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            This is my right column
+            <h1>Invoice Number</h1><br />TWINV2018-0001
         </div>
     </div>
 </div>
