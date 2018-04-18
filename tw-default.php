@@ -81,7 +81,7 @@ if ( ! class_exists( 'GFForms' ) ) {
         border: 1px solid black;
     }
     h3.section1_header {
-    	padding-bottom: 10px;
+    	padding-bottom: 200px;
     }
 </style>
 
