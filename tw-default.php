@@ -64,13 +64,13 @@ if ( ! class_exists( 'GFForms' ) ) {
     .col-1-3 h3.section2_header {
         margin-top: 0px;
         margin-bottom: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
         color: #cf202e;
     }
     .col-1-3 h3.section1_header {
     	margin-top: 0px;
         margin-bottom: 0px;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
         color: #ccc;
     }
     .col-1-3 div.bottompadding {
