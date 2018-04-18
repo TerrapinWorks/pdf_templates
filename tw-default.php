@@ -37,10 +37,9 @@ if ( ! class_exists( 'GFForms' ) ) {
     	padding-bottom: 10px;
     	padding-left: 10px;
     	padding-right: 10px;
-    	a {
-    		color: #cf202e;
-    		text-decoration: none;
-    	}
+    }
+    table.header th,td a {
+    	text-decoration: none;
     }
     .footer {
     	text-align: center;
