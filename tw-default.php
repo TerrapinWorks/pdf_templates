@@ -40,7 +40,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     table.invoice_section1 {
     	vertical-align: top; 
     	font-family: "Proxima Nova", proximanova, sans-serif;
-    	color: #000088;
+    	color: red;
     	width: 100%;
     }
     .footer {
