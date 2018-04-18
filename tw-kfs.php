@@ -137,7 +137,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Billed To</h3></div><div class="bottompadding">{Customer Name (First):17.3} {Customer Name (Last):17.6}</div><h3 class="section1_header">Payment Method</h3><div>{How is the customer paying?:2}</div>
+            <div><h3 class="section1_header">Billed To</h3></div><div class="bottompadding">{PI Name (First):59.3} {PI Name (Last):59.6}</div><h3 class="section1_header">Payment Method</h3><div>{How is the customer paying?:2}</div>
         </div>
     </div>
 
