@@ -37,12 +37,6 @@ if ( ! class_exists( 'GFForms' ) ) {
     	padding-left: 10px;
     	padding-right: 10px;
     }
-    table.invoice_section1 th,td {
-    	vertical-align: top; 
-    	font-family: "Proxima Nova", proximanova, sans-serif;
-    	color: #FF0000;
-    	width: 100%;
-    }
     .footer {
     	text-align: center;
     }
