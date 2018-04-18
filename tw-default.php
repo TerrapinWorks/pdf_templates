@@ -96,6 +96,10 @@ if ( ! class_exists( 'GFForms' ) ) {
     .inner {
         padding: none;
     }
+    .inner-section2 {
+    	padding: none;
+    	text-align: right;
+    }
 </style>
 
 
@@ -145,13 +149,13 @@ if ( ! class_exists( 'GFForms' ) ) {
     </div>
 
     <div class="col col-1-3">
-        <div class="inner" height="40mm">
+        <div class="inner-section2" height="40mm">
             <div><h3 class="section2_header">Qty / Rate</h3></div><div>1</div>
         </div>
     </div>
 
     <div class="col col-1-3">
-        <div class="inner" height="40mm">
+        <div class="inner-section2" height="40mm">
             <div><h3 class="section2_header">Amount</h3></div><div>$55.12</div>
         </div>
     </div>
