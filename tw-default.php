@@ -6,7 +6,7 @@
  * Author: Nicholas Bentley, Mterus IT Services
  * Author URI: https://merus.it
  * License: GPLv2
- * Required PDF Version: 4.0
+ * Required PDF Version: 4.4
  * Tags: terrapinworks, invoice
  */
 /* Prevent direct access to the template (always good to include this) */
