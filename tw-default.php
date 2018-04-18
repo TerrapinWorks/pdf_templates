@@ -23,8 +23,8 @@ if ( ! class_exists( 'GFForms' ) ) {
         footer: html_twFooter;
     }
     table.header {
-    	padding-top: 50px;
-    	padding-bottom: 50px;
+    	margin-top: 50px;
+    	margin-bottom: 50px;
     	vertical-align: bottom; 
     	font-family: sans-serif; 
     	font-size: 12pt; 
