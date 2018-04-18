@@ -40,7 +40,8 @@ if ( ! class_exists( 'GFForms' ) ) {
     <table class="header">
     	<tr>
     		<td width="50%">Main Header</td>
-    		<td width="50%" style="text-align: right;">Logo</td>
+    		<td width="25%" style="text-align: right;">Address</td>
+    		<td width="25%" style="text-align: right;">Logo</td>
     	</tr>
     </table>
 </htmlpageheader>
