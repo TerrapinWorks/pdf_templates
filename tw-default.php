@@ -112,7 +112,6 @@ if ( ! class_exists( 'GFForms' ) ) {
     h3.standard {
     	color: #b0b0b0;
     	padding-bottom: 10px
-    	padding-top: 20px;
     }
 </style>
 
@@ -197,6 +196,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 </div>
 
 <pagebreak />
-
-<h3 class="standard">Additional Information</h3>
-<p>The use of internal payment methods (e.g. KFS Account) will generate additional data below to assist business offices in various colleges & departments when reconciling charges.</p>
+<div style="padding-top: 20px;">
+	<h3 class="standard">Additional Information</h3>
+	<p>The use of internal payment methods (e.g. KFS Account) will generate additional data below to assist business offices in various colleges & departments when reconciling charges.</p>
+</div>
