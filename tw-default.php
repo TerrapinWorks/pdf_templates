@@ -25,7 +25,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     table.header {
     	vertical-align: center; 
     	font-family: sans-serif; 
-    	font-size: 10pt; 
+    	font-size: 8pt; 
     	color: #000088;
     	width: 100%;
     }
