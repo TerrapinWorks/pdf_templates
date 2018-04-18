@@ -40,6 +40,25 @@ if ( ! class_exists( 'GFForms' ) ) {
     .footer {
     	text-align: center;
     }
+    .row {
+        clear: both;
+        margin-bottom: 5mm;
+    }
+    .col {
+        float: left;
+    }
+    .col-1-2 {
+        width: 49%;
+        padding-right: 1%;
+    }
+    .col-1-3 {
+        width: 33%;
+        padding-right: 0.3%;
+    }
+    .inner {
+        padding: 10px;
+        border: 1px solid black;
+    }
 </style>
 
 
@@ -61,13 +80,25 @@ if ( ! class_exists( 'GFForms' ) ) {
 </htmlpagefooter>
 
 <!-- Write PDF body -->
-<table style="font-family: 'Proxima Nova', proximanova, sans-serif; width: 100%;">
-  <tr>
-    <td vertical-align="top" width="25%"><h4 style="color: #ccc;">Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip</td>
-    <td vertical-align="top" width="25%"><p><h4>Account Number</h4><br />12-34567</p><p><h4>Account Number</h4><br />12-34567</p></td>
-    <td vertical-align="top" width="50%" style="text-align: right;"><img width="200px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPC.png"></img></td>
-  </tr>
-</table>
+<div class="row">
+    <div class="col col-1-3">
+        <div class="inner" height="40mm">
+            <h4 style="color: #ccc;">Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip
+        </div>
+    </div>
+
+    <div class="col col-1-3">
+        <div class="inner" height="40mm">
+            <h4>Account Number</h4><br />12-34567</p><p><h4>Account Number</h4><br />12-34567
+        </div>
+    </div>
+
+    <div class="col col-1-3">
+        <div class="inner" height="40mm">
+            This is my right column
+        </div>
+    </div>
+</div>
 <p>Nulla felis erat, imperdiet eu, ullamcorper non, nonummy quis, elit. Suspendisse potenti. Ut a eros at ligula vehicula pretium. Maecenas feugiat pede vel risus. Nulla et lectus. Fusce eleifend neque sit amet erat. Integer consectetuer nulla non orci. Morbi feugiat pulvinar dolor. Cras odio. Donec mattis, nisi id euismod auctor, neque metus pellentesque risus, at eleifend lacus sapien et risus. Phasellus metus. Phasellus feugiat, lectus ac aliquam molestie, leo lacus tincidunt turpis, vel aliquam quam odio et sapien. Mauris ante pede, auctor ac, suscipit quis, malesuada sed, nulla. Integer sit amet odio sit amet lectus luctus euismod. Donec et nulla. Sed quis orci. </p>
 
 <pagebreak />
