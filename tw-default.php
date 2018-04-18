@@ -69,6 +69,9 @@ if ( ! class_exists( 'GFForms' ) ) {
     .col-1-3 div.bottompadding {
     	padding-bottom: 25px;
     }
+    .col-1-3 div.bottompadding_2 {
+    	padding-bottom: 5px;
+    }
     .col-1-3 h1 {
     	font-size: 28px;
         margin-top: 0px;
@@ -122,7 +125,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-           <div><h3 class="section1_header">Invoice Total</h3></div><div><h1>$55.12</h1></div><div><h3 class="section1_header">Payment Status</h3></div><div>Paid Status</div>
+           <div><h3 class="section1_header">Invoice Total</h3></div><div class="bottompadding_2"><h1>$55.12</h1></div><div><h3 class="section1_header">Payment Status</h3></div><div>Paid Status</div>
         </div>
     </div>
 </div>
