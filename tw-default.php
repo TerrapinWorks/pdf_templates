@@ -198,5 +198,5 @@ if ( ! class_exists( 'GFForms' ) ) {
 <pagebreak />
 <div style="padding-top: 10px;">
 	<h3 class="standard">Additional Information</h3>
-	<p>The use of internal payment methods (e.g. KFS Account) will generate additional data below to assist business offices in various colleges & departments when reconciling charges.</p>
+	<p>Use of payment methods internal to the university system (e.g. KFS Account) will generate additional data below to assist business offices in various colleges & departments when reconciling charges.</p>
 </div>
