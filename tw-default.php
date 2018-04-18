@@ -45,7 +45,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     <table class="header">
     	<tr>
     		<td width="35%" style="background-color: #cf202e; text-align: center; font-size: 20pt; color: #ffffff;"><strong>INVOICE</strong></td>
-    		<td width="32.5%" style="text-align: center; font-size: 1em;">University of Maryland<br />Engineering Information Technology<br />4356 Stadium Dr. Suite 2125<br />College Park, MD 20742</td>
+    		<td width="32.5%" style="text-align: center; font-size: 1px;">University of Maryland<br />Engineering Information Technology<br />4356 Stadium Dr. Suite 2125<br />College Park, MD 20742</td>
     		<td width="32.5%" style="text-align: center;"><img width="200px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPC.png"></img></td>
     	</tr>
     </table>
