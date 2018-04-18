@@ -63,6 +63,9 @@ if ( ! class_exists( 'GFForms' ) ) {
         padding-bottom: 0px;
         color: #ccc;
     }
+    .col-1-3 h3.section1_header {
+    	padding-bottom: 15px;
+    }
     .col-1-3 h1 {
     	font-size: 48px;
         margin-top: 0px;
@@ -79,9 +82,6 @@ if ( ! class_exists( 'GFForms' ) ) {
     .inner {
         padding: none;
         border: 1px solid black;
-    }
-    h3.section1_header {
-    	padding-bottom: 200px;
     }
 </style>
 
