@@ -39,6 +39,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     	padding-right: 10px;
     	a {
     		color: #cf202e;
+    		text-decoration: none;
     	}
     }
     .footer {
