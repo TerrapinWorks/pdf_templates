@@ -67,6 +67,12 @@ if ( ! class_exists( 'GFForms' ) ) {
         padding-bottom: 10px;
         color: #cf202e;
     }
+    .col-1-3 h2.section2_header {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        color: #cf202e;
+    }
     .col-1-3 h3.section1_header {
     	margin-top: 0px;
         margin-bottom: 0px;
@@ -176,7 +182,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner-section2" height="40mm">
-           <div><h3 class="section2_header">Subtotal <span style="color: #000000;">$55.12</span></h3></div><div class="bottompadding_2"></div><div><h3 class="section2_header">Grand Total <span style="color: #000000;">$55.12</span></h3></div>
+           <div><h3 class="section2_header">Subtotal <span style="color: #000000;">$55.12</span></h3></div><div class="bottompadding_2"></div><div><h2 class="section2_header">Grand Total <span style="color: #000000;">$55.12</span></h2></div>
         </div>
     </div>
 
