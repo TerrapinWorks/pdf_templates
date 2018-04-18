@@ -104,19 +104,19 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <h3 style="color: #ccc;">Billed To</h3><br />John Doe<br />1 Address Way<br />City, State Zip
+            <div><h3 style="color: #ccc;">Billed To</h3></div><div>John Doe</div><div>1 Address Way</div><div>City, State Zip</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3>Invoice Number</h3></div><div>TWINV2018-0001</div><h3>Date Issued</h3><br />Current Date
+            <div><h3>Invoice Number</h3></div><div>TWINV2018-0001</div><h3>Date Issued</h3><div>Current Date</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-           <h3>Invoice Total</h3><br /><h1>$55.12</h1>
+           <div><h3>Invoice Total</h3></div><div><h1>$55.12</h1></div>
         </div>
     </div>
 </div>
