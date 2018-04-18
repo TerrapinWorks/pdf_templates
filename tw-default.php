@@ -46,7 +46,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 <htmlpageheader name="twHeader">
     <table class="header">
     	<tr>
-    		<td width="50%" style="background-color: #cf202e;">Main Header</td>
+    		<td width="50%" style="background-color: #cf202e; text-align: center; font-size: 48pt;">INVOICE</td>
     		<td width="25%" style="text-align: right;">Address</td>
     		<td width="25%" style="text-align: right;"><img width="150px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/MediumHeader.png"></img></td>
     	</tr>
