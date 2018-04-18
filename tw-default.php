@@ -63,7 +63,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 <!-- Write PDF body -->
 <table style="font-family: 'Proxima Nova', proximanova, sans-serif; width: 100%;">
   <tr>
-    <td vertical-align="center" width="25%"><h4 style="color: #ccc;">Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip</td>
+    <td vertical-align="top" width="25%"><h4 style="color: #ccc;">Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip</td>
     <td width="25%"><p><h4>Account Number</h4><br />12-34567</p><p><h4>Account Number</h4><br />12-34567</p></td>
     <td width="50%" style="text-align: right;"><img width="200px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPC.png"></img></td>
   </tr>
