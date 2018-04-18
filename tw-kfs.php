@@ -137,13 +137,13 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Billed To</h3></div><div class="bottompadding">{Customer Name (First):17.3} {Customer Name (Last):17.4}</div><h3 class="section1_header">Payment Method</h3><div>KFS Acccount</div>
+            <div><h3 class="section1_header">Billed To</h3></div><div class="bottompadding">{Customer Name (First):17.3} {Customer Name (Last):17.6}</div><h3 class="section1_header">Payment Method</h3><div>{How is the customer paying?:2}</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Invoice Number</h3></div><div class="bottompadding">TWINV2018-0001</div><h3 class="section1_header">Date Issued</h3><div>Current Date</div>
+            <div><h3 class="section1_header">Invoice Number</h3></div><div class="bottompadding">INV{Transaction ID:42}</div><h3 class="section1_header">Date Created</h3><div>{date_created}</div>
         </div>
     </div>
 
