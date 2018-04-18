@@ -55,6 +55,10 @@ if ( ! class_exists( 'GFForms' ) ) {
         width: 33%;
         padding-right: 0.3%;
     }
+    .col-1-3 h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .inner {
         padding: none;
         border: 1px solid black;
