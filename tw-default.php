@@ -61,8 +61,13 @@ if ( ! class_exists( 'GFForms' ) ) {
 </htmlpagefooter>
 
 <!-- Write PDF body -->
-<h2>Header</h2>
-    
+    <table class="header">
+    	<tr>
+    		<td width="15%"><h4>Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip</td>
+    		<td width="15%"><p><h4>Account Number</h4><br />12-34567</p><p><h4>Account Number</h4><br />12-34567</p></td>
+    		<td width="70%" style="text-align: right;"><img width="200px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPC.png"></img></td>
+    	</tr>
+    </table>
 <p>Nulla felis erat, imperdiet eu, ullamcorper non, nonummy quis, elit. Suspendisse potenti. Ut a eros at ligula vehicula pretium. Maecenas feugiat pede vel risus. Nulla et lectus. Fusce eleifend neque sit amet erat. Integer consectetuer nulla non orci. Morbi feugiat pulvinar dolor. Cras odio. Donec mattis, nisi id euismod auctor, neque metus pellentesque risus, at eleifend lacus sapien et risus. Phasellus metus. Phasellus feugiat, lectus ac aliquam molestie, leo lacus tincidunt turpis, vel aliquam quam odio et sapien. Mauris ante pede, auctor ac, suscipit quis, malesuada sed, nulla. Integer sit amet odio sit amet lectus luctus euismod. Donec et nulla. Sed quis orci. </p>
 
 <pagebreak />
