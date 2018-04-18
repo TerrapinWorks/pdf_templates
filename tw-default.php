@@ -67,12 +67,13 @@ if ( ! class_exists( 'GFForms' ) ) {
     	padding-bottom: 15px;
     }
     .col-1-3 div.bottompadding {
-    	padding-bottom: 15px;
+    	padding-bottom: 20px;
     }
     .col-1-3 h1 {
     	font-size: 28px;
         margin-top: 0px;
         margin-bottom: 0px;
+        padding-top: 0px;
         padding-bottom: 0px;
         color: #cf202e;
     }
