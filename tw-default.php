@@ -18,13 +18,17 @@ if ( ! class_exists( 'GFForms' ) ) {
 
 <!-- Any PDF CSS styles can be placed in here -->
 <style>
+	@font-face { 
+	font-family: 'Proxima Nova';
+	src:url('proximanova-regular-webfont.woff') format('woff');
+	}
     @page {
         header: html_twHeader;
         footer: html_twFooter;
     }
     table.header {
     	vertical-align: center; 
-    	font-family: sans-serif; 
+    	font-family: 'Proxima Nova', sans-serif; 
     	color: #000088;
     	width: 100%;
     }
@@ -45,7 +49,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     <table class="header">
     	<tr>
     		<td width="35%" style="background-color: #cf202e; text-align: center; font-size: 20pt; color: #ffffff;"><strong>INVOICE</strong></td>
-    		<td width="32.5%" style="text-align: center; font-size: 10px;">University of Maryland<br />Engineering Information Technology<br />4356 Stadium Dr. Suite 2125<br />College Park, MD 20742</td>
+    		<td width="32.5%" style="text-align: center; font-size: 15px;">University of Maryland<br />Engineering Information Technology<br />4356 Stadium Dr. Suite 2125<br />College Park, MD 20742</td>
     		<td width="32.5%" style="text-align: center;"><img width="200px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPC.png"></img></td>
     	</tr>
     </table>
