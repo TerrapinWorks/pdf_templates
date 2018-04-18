@@ -56,9 +56,10 @@ if ( ! class_exists( 'GFForms' ) ) {
         width: 33%;
         padding-right: 0.3%;
     }
-    .col-1-3 h4 {
+    .col-1-3 h3 {
         margin-top: 0;
         margin-bottom: 0;
+        color: #ccc;
     }
     .inner {
         padding: none;
@@ -88,13 +89,13 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <h4 style="color: #ccc;">Billed To</h4><br />John Doe<br />1 Address Way<br />City, State Zip
+            <h3 style="color: #ccc;">Billed To</h3><br />John Doe<br />1 Address Way<br />City, State Zip
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <h4>Account Number</h4><br />12-34567</p><p><h4>Account Number</h4><br />12-34567
+            <h3>Account Number</h3><br />12-34567</p><p><h4>Account Number</h4><br />12-34567
         </div>
     </div>
 
