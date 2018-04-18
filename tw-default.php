@@ -32,8 +32,8 @@ if ( ! class_exists( 'GFForms' ) ) {
     	width: 100%;
     }
     table.header th,td {
-    	padding-top: 15px;
-    	padding-bottom: 15px;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
     	padding-left: 10px;
     	padding-right: 10px;
     }
