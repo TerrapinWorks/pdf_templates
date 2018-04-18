@@ -54,7 +54,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     }
     .col-1-3 {
         width: 35%;
-        padding-right: 0.3%;
+        padding-right: 0.5%;
     }
     .col-1-3 h3 {
         margin-top: 0;
