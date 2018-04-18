@@ -106,6 +106,11 @@ if ( ! class_exists( 'GFForms' ) ) {
     	padding: none;
     	text-align: right;
     }
+    h3.standard {
+    	color: #b0b0b0;
+    	padding-bottom: 10px
+    	padding-top: 10px;
+    }
 </style>
 
 
@@ -130,7 +135,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Billed To</h3></div><div>John Doe</div><div>1 Address Way</div><div>City, State Zip</div>
+            <div><h3 class="section1_header">Billed To</h3></div><div>John Doe</div><div>1 Address Way</div><div class="bottompadding">City, State Zip</div><h3 class="section1_header">Payment Method</h3><div>KFS Acccount</div>
         </div>
     </div>
 
@@ -187,8 +192,8 @@ if ( ! class_exists( 'GFForms' ) ) {
     </div>
 
 </div>
-<div>test</div>
 
 <pagebreak />
 
-<h2>Header</h2>
+<h3 class="standard">Additional Information</h3>
+<p>If 
