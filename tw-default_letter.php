@@ -1,8 +1,8 @@
 <?php
 /**
- * Template Name: Terrapin Works Default Invoice Template
+ * Template Name: Terrapin Works Default Letter Template
  * Version: 0.1
- * Description: The default Terrapin Works invoice template. Not configured for any payment methods.
+ * Description: The default Terrapin Works letter template.
  * Author: Nicholas Bentley, Merus IT Services
  * Author URI: https://merus.it
  * Group: Terrapin Works Templates
@@ -23,9 +23,10 @@ if ( ! class_exists( 'GFForms' ) ) {
         footer: html_twFooter;
     }
     table.header {
+    	border-bottom: 1px solid #000000; 
     	vertical-align: bottom; 
-    	font-family: sans-serif; 
-    	font-size: 12pt; 
+    	font-family: serif; 
+    	font-size: 9pt; 
     	color: #000088;
     	width: 100%;
     }
