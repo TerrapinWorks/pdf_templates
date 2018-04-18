@@ -18,17 +18,16 @@ if ( ! class_exists( 'GFForms' ) ) {
 
 <!-- Any PDF CSS styles can be placed in here -->
 <style>
-	@font-face { 
-	font-family: 'Proxima Nova';
-	src:url('proximanova-regular-webfont.woff') format('woff');
-	}
     @page {
         header: html_twHeader;
         footer: html_twFooter;
     }
     table.header {
     	vertical-align: bottom; 
-    	font-family: 'Proxima Nova', sans-serif; 
+    	@font-face {
+			font-family: 'Proxima Nova', Helvetica, sans-serif;
+			src:url('proximanova-regular-webfont.woff') format('woff');
+		}
     	color: #000088;
     	width: 100%;
     }
