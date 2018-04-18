@@ -38,7 +38,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     	padding-left: 10px;
     	padding-right: 10px;
     }
-    table.header th,td a {
+    table.header a,a:visited,a:link {
     	text-decoration: none;
     }
     .footer {
