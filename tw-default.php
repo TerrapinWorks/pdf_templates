@@ -5,6 +5,7 @@
  * Description: The default Terrapin Works invoice template. Not configured for any payment methods.
  * Author: Nicholas Bentley, Mterus IT Services
  * Author URI: https://merus.it
+ * Group: Terrapin Works Templates
  * License: GPLv2
  * Required PDF Version: 4.4
  * Tags: terrapinworks, invoice
