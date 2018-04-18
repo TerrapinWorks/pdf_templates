@@ -69,6 +69,12 @@ if ( ! class_exists( 'GFForms' ) ) {
         padding-bottom: 0px;
         color: #cf202e;
     }
+    .col-1-3 br {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
     .inner {
         padding: none;
         border: 1px solid black;
