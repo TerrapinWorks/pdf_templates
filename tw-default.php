@@ -30,6 +30,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     	font-family: "Proxima Nova", proximanova, sans-serif;
     	color: #000088;
     	width: 100%;
+    	border: 1px solid #cf202e;
     }
     table.header th,td {
     	padding-top: 10px;
