@@ -113,6 +113,10 @@ if ( ! class_exists( 'GFForms' ) ) {
     	color: #b0b0b0;
     	padding-bottom: 10px
     }
+    h4.addtlinfo {
+        color: #cf202e;
+        padding-bottom: 10px
+    }
 </style>
 
 
@@ -210,4 +214,13 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div style="padding-top: 10px;">
 	<h3 class="standard">Additional Information</h3>
 	<p>Use of payment methods internal to the university system (e.g. KFS Account) will generate additional data below to assist business offices in various colleges & departments when reconciling charges.</p>
+</div>
+<div style="border-bottom: 3px solid #cf202e;"></div>
+<div style="padding-top: 10px;">
+    <h4 class="addtlinfo">Customer Information</h4>
+    <p>Customer Name: {Customer Name (First):17.3} {Customer Name (Last):17.6}<br />Customer Email: {Customer Email:65}<br />Customer UID: {Customer UID:66}</p>
+    <h4 class="addtlinfo">PI / Billing Contact Information</h4>
+    <p>Name: {PI Name (First):59.3} {PI Name (Last):59.6}<br />Phone: {PI Phone Number:60}<br />Department / Org: {Department (Department):64.2}</p>
+    <h4 class="addtlinfo">KFS Account to be charged</h4>
+    <p>KFS Account #: {KFS Account #:19}</p>
 </div>
