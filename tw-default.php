@@ -137,19 +137,19 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Description</div><div>Print Job</div>
+            <div><h3 class="section1_header">Description</h3></div><div>Print Job</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Qty / Rate</div><div>1</div>
+            <div><h3 class="section1_header">Qty / Rate</h3></div><div>1</div>
         </div>
     </div>
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Amount</div><div>$55.12</div>
+            <div><h3 class="section1_header">Amount</h3></div><div>$55.12</div>
         </div>
     </div>
 
