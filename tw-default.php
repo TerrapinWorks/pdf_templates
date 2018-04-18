@@ -41,6 +41,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     	text-align: center;
     }
     .row {
+    	padding-top: 20px;
         clear: both;
         margin-bottom: 5mm;
     }
