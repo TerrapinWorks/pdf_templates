@@ -130,7 +130,7 @@ if ( ! class_exists( 'GFForms' ) ) {
                 [gravityforms action="conditional" merge_tag="{Product or Service?:71}" condition="is" value="Product"]
                 <strong>Print Job</strong><br />Type: {Equipment or Service (Type):70.2}<br />Equipment: {Equipment or Service (Equipment or Service):70.3}
                 [/gravityforms]
-                [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="MakerBot Innovation Center"]test[/gravityforms]
+                [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="MakerBot&nbsp;Innovation&nbsp;Center"]test[/gravityforms]
                 [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="Research Prototyping Lab"]<img width="250px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPL.png"></img>[/gravityforms]
                 [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="Advanced Fabrication Lab"]<img width="250px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_AFL.png"></img>[/gravityforms]
             </td>
