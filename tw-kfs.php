@@ -222,9 +222,9 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div style="border-bottom: 3px solid #cf202e;"></div>
 <div style="padding-top: 10px;">
     <h4 class="addtlinfo">Customer Information</h4>
-    <p>Customer Name: {Customer Name (First):17.3} {Customer Name (Last):17.6}<br />Customer Email: {Customer Email:65}<br />Customer UID: {Customer UID:66}</p>
+    <p><strong>Customer Name:</strong> {Customer Name (First):17.3} {Customer Name (Last):17.6}<br /><strong>Customer Email:</strong> {Customer Email:65}<br /><strong>Customer UID:</strong> {Customer UID:66}</p>
     <h4 class="addtlinfo">PI / Billing Contact Information</h4>
-    <p>Name: {PI Name (First):59.3} {PI Name (Last):59.6}<br />Phone: {PI Phone Number:60}<br />Department / Org: {Department (Department):64.2}</p>
+    <p><strong>PI / Billing Contact Name:</strong> {PI Name (First):59.3} {PI Name (Last):59.6}<br /><strong>PI / Billing Contact Phone:</strong> {PI Phone Number:60}<br /><strong>PI / Billing Contact Department or Organization:</strong> {Department (Department):64.2}</p>
     <h4 class="addtlinfo">KFS Account to be charged</h4>
-    <p>KFS Account #: {KFS Account #:19}</p>
+    <p><strong>KFS Account #:</strong> {KFS Account #:19}</p>
 </div>
