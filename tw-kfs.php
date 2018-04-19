@@ -157,7 +157,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-           <div><h3 class="section1_header">Invoice Total</h3></div><div class="bottompadding_2"><h1>$55.12</h1></div><div><h3 class="section1_header">Payment Status</h3></div><div>{Payment Status:44}</div>
+           <div><h3 class="section1_header">Invoice Total</h3></div><div class="bottompadding_2"><h1>{Grand Total (KFS Account):14}</h1></div><div><h3 class="section1_header">Payment Status</h3></div><div>{Payment Status:44}</div>
         </div>
     </div>
 </div>
