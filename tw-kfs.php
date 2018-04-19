@@ -127,10 +127,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     		<td width="35%" style="text-align: left; font-size: 12px; padding-left: 20px;"><strong>Business Office & Primary Contact</strong><br />Lalitha Shalini, <a style="color: #cf202e; text-decoration: none;" href="mailto:lshalini@umd.edu">lshalini@umd.edu</a><br />University of Maryland<br />Engineering Information Technology<br />4356 Stadium Dr. Suite 2125<br />College Park, MD 20742</td>
     		<td width="32%" style="text-align: center;">
                 <img width="250px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPC.png"></img>
-                [gravityforms action="conditional" merge_tag="{Product or Service?:71}" condition="is" value="Product"]
-                <strong>Print Job</strong><br />Type: {Equipment or Service (Type):70.2}<br />Equipment: {Equipment or Service (Equipment or Service):70.3}
-                [/gravityforms]
-                [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="MakerBot&nbsp;Innovation&nbsp;Center"]test[/gravityforms]
+                [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="Advanced Fabrication Lab"]test[/gravityforms]
                 [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="Research Prototyping Lab"]<img width="250px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPL.png"></img>[/gravityforms]
                 [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="Advanced Fabrication Lab"]<img width="250px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_AFL.png"></img>[/gravityforms]
             </td>
