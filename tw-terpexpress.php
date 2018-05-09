@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Terrapin Works Credit / Debit Invoice Template
+ * Template Name: Terrapin Works Terp Express Invoice Template
  * Version: 0.1
  * Description: The Terrapin Works invoice template. Configured for KFS Acccount.
  * Author: Nicholas Bentley, Merus IT Services
