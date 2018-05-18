@@ -145,7 +145,7 @@ if ( ! class_exists( 'GFForms' ) ) {
 <div class="row">
     <div class="col col-1-3">
         <div class="inner" height="40mm">
-            <div><h3 class="section1_header">Billed To</h3></div><div class="bottompadding">{Customer Name (Terp Express) (First):99.3} {Customer Name (Terp Express) (First):99.6}</div><h3 class="section1_header">Payment Method</h3><div>{How is the customer paying?:2}</div><div style="font-size: 10px;"></div>
+            <div><h3 class="section1_header">Billed To</h3></div><div class="bottompadding">{Customer Name (Terp Express) (First):98.3} {Customer Name (Terp Express) (First):98.6}</div><h3 class="section1_header">Payment Method</h3><div>{How is the customer paying?:2}</div><div style="font-size: 10px;"></div>
         </div>
     </div>
 
