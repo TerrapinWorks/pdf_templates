@@ -124,7 +124,7 @@ if ( ! class_exists( 'GFForms' ) ) {
     <table class="header">
     	<tr>
     		<td width="33%" style="background-color: #cf202e; text-align: center; font-size: 20pt; color: #ffffff;"><strong>INVOICE</strong></td>
-    		<td width="35%" style="text-align: left; font-size: 12px; padding-left: 20px;"><strong>Billing Questions?</strong><br />UMD Terrapin Works, <a style="color: #cf202e; text-decoration: none;" href="mailto:tw-billing@umd.edu">tw-billing@umd.edu</a><br />University of Maryland<br />Engineering Information Technology<br />4356 Stadium Dr. Suite 2125<br />College Park, MD 20742</td>
+    		<td width="35%" style="text-align: left; font-size: 12px; padding-left: 20px;"><strong>Billing Questions?</strong><br />Email us, <a style="color: #cf202e; text-decoration: none;" href="mailto:tw-billing@umd.edu">tw-billing@umd.edu</a><br />University of Maryland<br />Engineering Information Technology<br />4356 Stadium Dr. Suite 2125<br />College Park, MD 20742</td>
     		<td width="32%" style="text-align: center;">
                 [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="RPC"]<img width="250px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_RPC.png"></img>[/gravityforms]
                 [gravityforms action="conditional" merge_tag="{Which lab are you in?:1}" condition="is" value="MIC"]<img width="250px" src="https://s3.amazonaws.com/cdn.terrapin.works/brand/terrapin-works-logo_final_red-black_MIC.png"></img>[/gravityforms]
