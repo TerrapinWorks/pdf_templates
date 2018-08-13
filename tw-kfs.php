@@ -208,7 +208,16 @@ if ( ! class_exists( 'GFForms' ) ) {
 
     <div class="col col-1-3">
         <div class="inner-section2" height="40mm">
-           <div><h3 class="section2_header">Subtotal <span style="color: #000000;">{What is the subtotal (excluding tax, if applicable)?:3}</span></h3></div><div><h3 class="section2_header">Tax <span style="color: #000000;">$0.00</span></h3></div><div class="bottompadding_2"></div><div><h2 class="section2_header">Grand Total <span style="color: #000000;">{Grand Total (KFS Account):14}</span></h2></div>
+           <div><h3 class="section2_header">Subtotal <span style="color: #000000;">{What is the subtotal (excluding tax, if applicable)?:3}</span></h3></div><div><h3 class="section2_header">Tax <span style="color: #000000;">$0.00</span></h3></div><div class="bottompadding_2"></div><div><h2 class="section2_header">Grand Total <span style="color: #000000;">{Grand Total (KFS Account):14}</span></h2></div><div class="bottompadding_2"></div><h3 class="section2_header">Balance Due <span style="color: #000000;">
+           
+            [gravityforms action="conditional" merge_tag="{Payment Status:44}" condition="is" value="Pending Charge"]
+            {What is the subtotal (excluding tax, if applicable)?:3}
+            [/gravityforms]
+            [gravityforms action="conditional" merge_tag="{Payment Status:44}" condition="is" value="Complete"]
+            $0.00
+            [/gravityforms]
+           
+           </span></h3></div>
         </div>
     </div>
 
